@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="min-w-xs">
+    <div class="h-screen flex flex-col">
+      <nav class="bg-white text-xs">
+        <div class="mx-auto max-w-[980px] px-2 flex justify-between">
+          <div class="p-2 py-3">Apple</div>
+          <ul class="hidden grow md:contents">
+            <li class="p-2 py-3">Mac</li>
+            <li class="p-2 py-3">iPad</li>
+            <li class="p-2 py-3">iPhone</li>
+            <li class="p-2 py-3">Watch</li>
+            <li class="p-2 py-3">Vision</li>
+            <li class="p-2 py-3">AirPods</li>
+            <li class="p-2 py-3">TV & Home</li>
+            <li class="p-2 py-3">Entertainment</li>
+            <li class="p-2 py-3">Accessories</li>
+            <li class="p-2 py-3">Support</li>
+          </ul>
+          <ul class="flex md:contents">
+            <li class="p-2 py-3">Search</li>
+            <li class="p-2 py-3">Cart</li>
+            <li class="p-2 py-3 md:hidden">Menu</li>
+          </ul>
+        </div>
+      </nav>
+      <div class="flex flex-col gap-2">
+        <section
+          class="bg-neutral-100 grow flex flex-col max-h-[500px] min-h-[500px] md:max-h-none"
+        >
+          <div class="">
+            <!-- heading -->
+            <div class="text-center p-10 md:p-15 pb-3 md:pb-5">
+              <h1 class="text-4xl md:text-5xl font-semibold tracking-tight">
+                iPhone
+              </h1>
+              <p class="text-xl md:text-2xl tracking-tight mt-1 md:mt-2">
+                Meet the iPhone 16 family.
+              </p>
+            </div>
+            <!-- Button Group -->
+            <div class="flex w-fit gap-4 mx-auto md:text-lg">
+              <button
+                class="bg-blue-600 text-white p-4 py-1.5 md:p-6 md:py-2.5 rounded-full hover:cursor-pointer"
+              >
+                Learn more
+              </button>
+              <button
+                class="border-[1px] border-blue-600 text-blue-600 p-4 py-1.5 md:p-6 md:py-2.5 rounded-full hover:bg-blue-600 hover:text-white hover:cursor-pointer transition"
+              >
+                Shop iPhone
+              </button>
+            </div>
+          </div>
+          <div
+            class="text-center font-medium tracking-tight text-sm md:text-xl mt-5 md:mt-8 mb-1 md:mb-2 bg-gradient-to-r from-sky-500 via-violet-500 to-orange-600 bg-clip-text text-transparent w-fit mx-auto"
+          >
+            Built for Apple Intelligence.
+          </div>
+          <div
+            class="grow bg-[url(product-mobile.svg)] md:bg-[url(product.svg)] bg-bottom bg-no-repeat bg-contain mx-10"
+          ></div>
+        </section>
+        <section
+          class="bg-black text-white grow flex flex-col max-h-[500px] min-h-[500px] md:max-h-none"
+        >
+          <!-- heading -->
+          <div class="text-center p-10 md:p-15 pb-3 md:pb-5">
+            <h1 class="text-4xl md:text-5xl font-semibold tracking-tight">
+              Test
+            </h1>
+          </div>
+        </section>
+        <section
+          class="bg-black text-white grow flex flex-col max-h-[500px] min-h-[500px] md:max-h-none"
+        >
+          <!-- heading -->
+          <div class="text-center p-10 md:p-15 pb-3 md:pb-5">
+            <h1 class="text-4xl md:text-5xl font-semibold tracking-tight">
+              Test
+            </h1>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
